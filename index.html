@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="weather-container">
+        <h2 id="city-name">Guadalajara</h2>
+        <div class="main-data-container">
+          <img id="weather-icon" />
+          <div class="data-container">
+            <h1><span id="temperature">8</span>&#176;</h1>
+            <p id="description">Partly cloudy</p>
+            <div class="temperature-container">
+              <p class="maxT"><span id="max-temperature">17</span>&#176;</p>
+              <p class="minT"><span id="min-temperature">1</span>&#176;</p>
+            </div>
+          </div>
+        </div>
+        <div class="search-container">
+          <form id="city-form">
+            <input type="text" placeholder="Enter a city" id="city-input" />
+            <button id="city-button" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
